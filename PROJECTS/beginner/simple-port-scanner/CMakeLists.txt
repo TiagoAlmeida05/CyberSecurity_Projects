@@ -13,4 +13,5 @@ add_executable(simplePortScanner main.cpp
 
 target_link_libraries(simplePortScanner
         Boost::program_options
+        ws2_32
 )
